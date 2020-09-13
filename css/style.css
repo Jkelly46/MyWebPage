@@ -1,0 +1,51 @@
+* {
+font-family: raleway;
+font-size: 1.3em;
+color: black;
+display: center;
+width: 1300px;
+
+
+}
+.name{
+    padding: -10px 0 -10 0;
+}
+.title {
+    padding: -10px;
+
+}
+.contact {
+    margin-bottom: 900px;
+    
+}
+
+.about { 
+    margin-bottom: 900px;
+}
+    
+
+
+#image {
+    height: 300px;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.main {
+    background-color: rgb(204, 200, 200);
+    max-width: 900px;
+}
+
+.side {
+    background-color: rgb(218, 170, 15);
+    border: 10px solid rgb(218, 170, 15);
+    border-right-color: black;
+    max-width: 400px;
+
+}
+
+
+.container {
+    display:grid;
+    grid-template-columns: 400px 900px;
+    grid-template-rows: 5000px 5000px;
