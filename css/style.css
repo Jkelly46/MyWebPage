@@ -3,27 +3,17 @@ font-family: raleway;
 font-size: 1.3em;
 color: black;
 display: center;
-width: 1300px;
-
-
 }
-.name{
-    padding: -10px 0 -10 0;
-}
-.title {
-    padding: -10px;
-
-}
-.contact {
-    margin-bottom: 900px;
+.hobby {
+    display: flex;
+    flex-direction: flex-row;
+    justify-content: space-around;
     
 }
 
-.about { 
-    margin-bottom: 900px;
+.fas fa-address-book{
+    background-color: white;
 }
-    
-
 
 #image {
     height: 300px;
@@ -33,19 +23,43 @@ width: 1300px;
 
 .main {
     background-color: rgb(204, 200, 200);
-    max-width: 900px;
+    
 }
 
 .side {
     background-color: rgb(218, 170, 15);
     border: 10px solid rgb(218, 170, 15);
     border-right-color: black;
-    max-width: 400px;
+    width: 600px;
+    
 
 }
 
+li {
+    font-size: 1em;
+}
+.sidebar_list{
+    font-size: 1em;
+    font-weight: 200;
+    padding: 10px 50px
+}
+
+.sidebar_header {
+    color: whitesmoke;
+    background-color: black;
+    display: center;
+}
 
 .container {
-    display:grid;
-    grid-template-columns: 400px 900px;
-    grid-template-rows: 5000px 5000px;
+    display:flex;
+       
+}
+
+.hobbies{
+    
+    background-color: black;
+}
+#HeadingText{
+    display:inline-block;
+    background-color:yellow;
+}
