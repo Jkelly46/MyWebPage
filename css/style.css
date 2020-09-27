@@ -26,7 +26,7 @@ display: center;
 }
 
 .side_article {
-    margin: auto;
+  
 
 }
 
@@ -65,7 +65,7 @@ li {
 .sidebar_header {
     color: rgb(243, 210, 101);
     background-color: black;
-   
+    text-align: center;
     font-size: 2rem;
    
 }
