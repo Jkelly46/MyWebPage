@@ -7,42 +7,69 @@ display: center;
 
 .container {
     display:flex;
+    height: auto;
     
        
 }
 
 .main {
-    background-color: rgb(235, 230, 230);
-    width:80%;
+    background-color: white;
+    width:75%;
+    margin-left: 4%;
 }
+
+
+.name {
+    font-size: 5.5rem;
+    font-weight: 450;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+
+}
+span {
+    color: rgb(243, 210, 101);
+     
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 350;
+    margin-bottom: 8rem;
+}
+
+flex-container {
+    display: flex;
+}
+
+.main_header {
+
+}
+
+
+
+
+
+
+/* side bar */ 
 
 .side {
     background-color: rgb(243, 210, 101);
     border: none;
     border-right-color: black;
-    width: 30%;
+    width: 25%;
 
 
 }
-
-.side_article {
-  
-
-}
-
 
 
 #image {
     display: block;
     margin: 20px auto;
     border-radius: 35%;
-    
-    
+    margin-top: 10%;
 
 }
 
-
-    
 
 li {
     font-size: .5em;
