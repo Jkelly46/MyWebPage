@@ -1,0 +1,21 @@
+import images 
+innclude in depository itself
+
+semantic 
+
+section article
+
+hobbies font change not respond
+
+I had an icon source code in header
+icon source in header properly done?
+
+
+border of my image is a circle, but my image is an oval? 
+ different value % px em for border radius value?
+
+-use of flexbox values of hobbies icons
+
+-download program app "sketch" to properly assess mockup spacing, etc
+
+no list for "about me" section

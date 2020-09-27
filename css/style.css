@@ -4,62 +4,77 @@ font-size: 1.3em;
 color: black;
 display: center;
 }
-.hobby {
-    display: flex;
-    flex-direction: flex-row;
-    justify-content: space-around;
-    
-}
-
-.fas fa-address-book{
-    background-color: white;
-}
-
-#image {
-    height: 300px;
-    width: 300px;
-    padding: 0 20px;
-}
-
-.main {
-    background-color: rgb(204, 200, 200);
-    
-}
-
-.side {
-    background-color: rgb(218, 170, 15);
-    border: 10px solid rgb(218, 170, 15);
-    border-right-color: black;
-    width: 600px;
-    
-
-}
-
-li {
-    font-size: 1em;
-}
-.sidebar_list{
-    font-size: 1em;
-    font-weight: 200;
-    padding: 10px 50px
-}
-
-.sidebar_header {
-    color: whitesmoke;
-    background-color: black;
-    display: center;
-}
 
 .container {
     display:flex;
+    
        
 }
 
-.hobbies{
+.main {
+    background-color: rgb(235, 230, 230);
+    width:80%;
+}
+
+.side {
+    background-color: rgb(243, 210, 101);
+    border: none;
+    border-right-color: black;
+    width: 30%;
+
+
+}
+
+.side_article {
+    margin: auto;
+
+}
+
+
+
+#image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 35%;
     
+    
+
+}
+
+
+    
+
+li {
+    font-size: .5em;
+    padding: 2%;
+}
+.sidebar_list {
+    font-size: .8em;
+    font-weight: 200;
+    padding: 10%;
+    list-style-type: none;
+}
+
+.aboutme {
+    font-size: .5em;
+    font-weight: 200;
+    padding: 10%;
+    
+}
+
+.sidebar_header {
+    color: rgb(243, 210, 101);
     background-color: black;
+   
+    font-size: 2rem;
+   
 }
-#HeadingText{
-    display:inline-block;
-    background-color:yellow;
+
+.hobby {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
 }
+
+
