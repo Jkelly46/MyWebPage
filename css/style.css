@@ -26,10 +26,11 @@ display: center;
     margin-bottom: 1rem;
 
 }
-span {
+.John {
     color: rgb(243, 210, 101);
      
 }
+
 
 .title {
     font-size: 3.5rem;
@@ -37,16 +38,48 @@ span {
     margin-bottom: 8rem;
 }
 
-flex-container {
+.main_header{
+    font-weight: 500;
+
+
+}
+hr {
+color: black; 
+ 
+}
+
+.main_list {
+    list-style-type: none;
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
 }
 
-.main_header {
+.date_city {
+    width: 10rem;
+
+    
+}
+
+.place {
+    width: 40rem;
+    padding: .4rem;
+}
+
+.header {
+    font-size: 3rem;
 
 }
 
+.subheader {
+    font-size: 2rem;
 
+}
 
+.description {
+    font-size: 1rem;
+}
 
 
 
@@ -99,9 +132,11 @@ li {
 
 .hobby {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-around;
     list-style-type: none;
+    flex-grow: 4;
+
 }
 
 
