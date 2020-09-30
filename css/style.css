@@ -1,15 +1,21 @@
 * {
 font-family: raleway;
 font-size: 1.3em;
-color: black;
+color: black;   
 display: center;
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        flex-flow: row wrap;
+        justify-content: center; 
+        
+    }
 }
 
 .container {
     display:flex;
-    height: auto;
-    
-       
+    height: auto;    
 }
 
 .main {
@@ -18,22 +24,26 @@ display: center;
     margin-left: 4%;
 }
 
-
 .name {
-    font-size: 5.5rem;
+    font-size: 4rem;
     font-weight: 450;
     margin-top: 6rem;
     margin-bottom: 1rem;
-
 }
 .John {
-    color: rgb(243, 210, 101);
-     
+    color: rgb(243, 210, 101);    
+}
+.underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 210, 101);
+}
+.underline2 {
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
-
 .title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 350;
     margin-bottom: 8rem;
 }
@@ -41,22 +51,18 @@ display: center;
 .main_header{
     font-weight: 500;
     font-size: 2.5rem;
-
-
 }
+
 hr {
 display: block; height: 1px;
     border: 0;
     height: .2rem;
-    background-color: rgb(243, 210, 101); 
-   
- 
+    background-color: rgb(243, 210, 101);
 }
 
 .main_icon {
     color: rgb(243, 210, 101);
-    padding-right: .5rem;
-    
+    padding-right: .5rem;    
 }
 
 .main_list {
@@ -64,15 +70,22 @@ display: block; height: 1px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    
+    padding-left: 0rem;
 }
 
 /* experience and education articles */
+
+.fa-circle {
+    color: rgb(243, 210, 101);
+}
+
+.fa-dot-circle {
+    color: rgb(243, 210, 101);
+
+}
 .date_city {
     width: 10rem;
-    font-size: 1rem;
-
-    
+    font-size: 1.1rem;  
 }
 
 .place {
@@ -170,8 +183,7 @@ li {
     flex-direction: row; 
     justify-content: space-around;
     list-style-type: none;
-    
-
+    padding: .5rem;
 }
 
 
