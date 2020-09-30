@@ -2,14 +2,19 @@
 font-family: raleway;
 font-size: 1.3em;
 color: black;   
-display: center;
+
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 1240px) {
     .container {
         flex-flow: row wrap;
         justify-content: center; 
         
+    }
+
+    .side {
+        width:75%;
+        background-color: rgb(243, 210, 101);
     }
 }
 
