@@ -5,17 +5,31 @@ color: black;
 
 }
 
-@media screen and (max-width: 1240px) {
+@media all and (max-width: 1240px) {
     .container {
         flex-flow: row wrap;
-        justify-content: center; 
+        justify-content: center;    
+        
+    }
+    #image {
+        display: block;
+        margin: 1rem auto;
+        border-radius: 40%;
+        height: 300x;
+        width: 275px;
+    }
+    .side {
+        background-color: rgb(243, 210, 101);
+        flex-grow: 1;
+        
+    }
+    .main {
+        background-color: white;
+        width:40%;
         
     }
 
-    .side {
-        width:75%;
-        background-color: rgb(243, 210, 101);
-    }
+
 }
 
 .container {
@@ -140,11 +154,7 @@ display: block; height: 1px;
 
 .side {
     background-color: rgb(243, 210, 101);
-    border: none;
-    border-right-color: black;
     width: 25%;
-
-
 }
 
 
@@ -163,15 +173,16 @@ li {
 }
 .sidebar_list {
     font-size: .8em;
-    font-weight: 200;
+    font-weight: 250;
     padding: 10%;
     list-style-type: none;
 }
 
 .aboutme {
     font-size: .5em;
-    font-weight: 200;
+    font-weight: 250;
     padding: 10%;
+    line-height: 1.8rem;
     
 }
 
