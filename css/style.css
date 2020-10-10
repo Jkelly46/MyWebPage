@@ -47,17 +47,12 @@ color: black;
     text-decoration: underline;
     text-decoration-color: white;
 }
-.new_underline{
-    /* border-bottom: solid; 
-    border-color: rgb(243, 210, 101);*/
-    text-decoration: underline;
-    text-decoration-color: rgb(243, 210, 101);
-    font-size: 2.5rem;
-}
 .title_name{
     font-size: 2.5rem;
     font-weight: 350;
     margin-bottom: 8rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 210, 101);
 }
 .main_header{
     font-weight: 500;
