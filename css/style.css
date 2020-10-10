@@ -2,14 +2,11 @@
 font-family: raleway;
 font-size: 1.3em;
 color: black;   
-
 }
-
-@media all and (max-width: 1240px) {
+@media all and (min-width: 350px) and ( max-width: 768px) { 
     .container {
         flex-flow: row wrap;
         justify-content: center;    
-        
     }
     #image {
         display: block;
@@ -23,26 +20,16 @@ color: black;
         flex-grow: 1;
         
     }
-    .main {
-        background-color: white;
-        width:40%;
-        
-    }
-
-
 }
-
 .container {
     display:flex;
     height: auto;    
 }
-
 .main {
     background-color: white;
     width:75%;
     margin-left: 4%;
 }
-
 .name {
     font-size: 4rem;
     font-weight: 450;
@@ -60,30 +47,32 @@ color: black;
     text-decoration: underline;
     text-decoration-color: white;
 }
-
-.title {
+.new_underline{
+    /* border-bottom: solid; 
+    border-color: rgb(243, 210, 101);*/
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 210, 101);
+    font-size: 2.5rem;
+}
+.title_name{
     font-size: 2.5rem;
     font-weight: 350;
     margin-bottom: 8rem;
 }
-
 .main_header{
     font-weight: 500;
     font-size: 2.5rem;
 }
-
 hr {
 display: block; height: 1px;
     border: 0;
     height: .2rem;
     background-color: rgb(243, 210, 101);
 }
-
 .main_icon {
     color: rgb(243, 210, 101);
     padding-right: .5rem;    
 }
-
 .main_list {
     list-style-type: none;
     display: flex;
@@ -91,82 +80,54 @@ display: block; height: 1px;
     align-items: flex-start;
     padding-left: 0rem;
 }
-
 /* experience and education articles */
-
 .fa-circle {
     color: rgb(243, 210, 101);
 }
-
 .fa-dot-circle {
     color: rgb(243, 210, 101);
-
 }
 .date_city {
     width: 10rem;
     font-size: 1.1rem;  
 }
-
 .place {
     width: 40rem;
     padding: .4rem;
 }
-
 .header {
     font-size: 2rem;
-    
-
 }
-
 .subheader {
     font-size: 1.5rem;
-
 }
-
 .description {
     font-size: .8rem;
 }
-
 /*references article */
-
 .references {
     display: flex;
     flex-direction: row;
 
 }
-
 .reference_item {
     list-style-type: none;
     width: 40rem;
-    
-
 }
-
 .reference_details  {
-    font-size: 1rem;
-    
+    font-size: 1rem;   
 }
-
-
-
-
 /* side bar */ 
-
 .side {
     background-color: rgb(243, 210, 101);
     width: 25%;
 }
-
-
 #image {
     display: block;
     margin: 20px auto;
     border-radius: 35%;
     margin-top: 10%;
-
 }
-
-
 li {
     font-size: .5em;
     padding: 2%;
@@ -177,23 +138,18 @@ li {
     padding: 10%;
     list-style-type: none;
 }
-
 .aboutme {
     font-size: .5em;
     font-weight: 250;
     padding: 10%;
     line-height: 1.8rem;
-    
 }
-
 .sidebar_header {
     color: rgb(243, 210, 101);
     background-color: black;
     text-align: center;
     font-size: 2rem;
-   
 }
-
 .hobby {
     display: flex;
     flex-direction: row; 
